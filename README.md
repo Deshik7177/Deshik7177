@@ -1,5 +1,9 @@
-# 💫 About Me:
-🔭 I’m currently working on<br>Building real-world intelligent systems that blend AI, ML, Robotics, IoT, and Automation.<br>As a Technical Lead at Designotics, I focus on turning messy ideas into clean, working tech — from system design to execution.<br>I’m deep into hands-on engineering where code meets hardware and actually does something.<br>👯 I’m looking to collaborate on<br>• AI / ML based applications<br>• Robotics and autonomous systems<br>• IoT and embedded systems<br>• Automation projects that solve real problems<br>If it’s practical, scalable, and a little ambitious — let’s build.<br>🤝 I’m looking for help with<br>• Improving system design and architecture<br>• Optimizing ML models for real-time use<br>• Turning prototypes into production-ready solutions<br>• Learning from people who’ve built things at scale<br>No ego, just growth.<br>🌱 I’m currently learning<br>• Advanced Machine Learning & Deep Learning<br>• Embedded systems and hardware integration<br>• Automation workflows<br>• How to design systems that are not just smart — but reliable<br>Leveling up, one build at a time.<br>💬 Ask me about<br>• Robotics (ROS2, sensors, actuators)<br>• IoT with ESP32 / STM32 / Raspberry Pi<br>• Automation and embedded projects<br>• How to go from idea → wiring → code → working demo<br>I believe in learning by building.<br>⚡ Fun fact<br>I trust hardware more than assumptions.<br>If it works in real life, it counts.<br>If it doesn’t — back to debugging 😤⚙️
+💫 About Me
+
+AI • ML • Robotics • IoT • Automation
+Technical Lead @ Designotics — building real systems where code meets hardware.
+Into robotics, embedded tech, and automation that actually works IRL.
+Trusts hardware over assumptions. Debugs till it’s real 😤⚙️
 
 
 ## 🌐 Socials:
