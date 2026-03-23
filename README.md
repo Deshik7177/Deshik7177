@@ -89,15 +89,8 @@ machines that *move, react, and exist beyond the screen*.
 
 ---
 
-## 🏆 Highlights
-
-![](https://github-profile-trophy.vercel.app/?username=Deshik7177\&theme=radical\&no-frame=true\&no-bg=true)
-
----
-
-## ✍️ Dev Philosophy
-
-> Build real things. Break them. Understand them. Repeat.
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
 
