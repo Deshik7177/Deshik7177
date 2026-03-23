@@ -1,12 +1,36 @@
+<!-- Animated Typing Intro -->
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=I'm+Deshik;I+build+real-world+systems;Robotics+%7C+AI+%7C+Automation;Code+meets+hardware+here" />
+</p>
+
+---
+
 # 👋 I'm Deshik
 
 🚀 AI • ML • Robotics • IoT • Automation
 ⚙️ Technical Lead @ Designotics
 
+I don’t just write code.
 I build systems where **code meets hardware** —
-things that move, respond, and exist in the real world.
+machines that *move, react, and exist beyond the screen*.
 
 > Trust hardware over assumptions. Debug till it’s real 😤⚙️
+
+---
+
+## ⚡ System Status
+
+```diff
++ STATUS: BUILDING
++ MODE: LEARNING / DEBUGGING / SHIPPING
++ FOCUS: REAL-WORLD SYSTEMS
+```
+
+---
+
+⚡ *Not just coding. Engineering reality.*
+
 
 ---
 
