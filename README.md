@@ -46,7 +46,7 @@ machines that *move, react, and exist beyond the screen*.
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram\&logoColor=white)](https://instagram.com/_deshik._2306)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/paila-dhana-deshik)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail\&logoColor=white)](mailto:pdhanadeshik7177@gmail.com)
-
+[![Portfolio](https://img.shields.io/badge/Visit%20My%20Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://deshik-portfolio.vercel.app/)
 ---
 
 ## 🛠️ Tech Stack
