@@ -19,16 +19,6 @@ machines that *move, react, and exist beyond the screen*.
 
 ---
 
-## ⚡ System Status
-
-```diff
-+ STATUS: BUILDING
-+ MODE: LEARNING / DEBUGGING / SHIPPING
-+ FOCUS: REAL-WORLD SYSTEMS
-```
-
----
-
 ⚡ *Not just coding. Engineering reality.*
 
 
