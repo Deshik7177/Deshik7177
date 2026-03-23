@@ -19,11 +19,6 @@ machines that *move, react, and exist beyond the screen*.
 
 ---
 
-⚡ *Not just coding. Engineering reality.*
-
-
----
-
 ## ⚡ Live Dev Pulse
 
 🟢 Status: Building & Breaking Stuff
