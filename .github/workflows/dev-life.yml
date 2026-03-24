@@ -2,86 +2,58 @@ name: Dev Life System
 
 on:
   schedule:
-    - cron: '30 2 * * *'   # ~8:00 AM IST
-    - cron: '30 8 * * *'   # ~2:00 PM IST
-    - cron: '30 14 * * *'  # ~8:00 PM IST
+    - cron: '30 2 * * *'
+    - cron: '30 8 * * *'
+    - cron: '30 14 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          ref: main
 
-      - name: Simulate real dev activity + update README
+      - name: Run dev simulation
         run: |
           git config --global user.name "Deshik7177"
           git config --global user.email "pdhanadeshik7177@gmail.com"
 
           DATE=$(date)
 
-          # ---- REALISTIC ACTIONS ----
-          FEATURES=(
-            "implemented robotics motion control"
-            "improved hexapod walking stability"
-            "optimized servo response timing"
-            "added API endpoint for control system"
-            "integrated sensor feedback loop"
+          # FORCE CHANGE (IMPORTANT)
+          echo "heartbeat $DATE" >> heartbeat.txt
+
+          # RANDOM FILE UPDATE (REALISTIC)
+          FILES=("robot.py" "control.cpp" "server.js" "config.yaml")
+          FILE=${FILES[$RANDOM % ${#FILES[@]}]}
+          echo "// update at $DATE" >> $FILE
+
+          # LOG SYSTEM
+          ACTIONS=(
+            "improved hexapod stability"
+            "fixed servo jitter"
+            "optimized control loop"
+            "added API endpoint"
+            "enhanced sensor feedback"
           )
 
-          BUGS=(
-            "fixed servo jitter issue"
-            "resolved timing mismatch bug"
-            "fixed API response delay"
-            "corrected sensor calibration error"
-          )
+          ACTION=${ACTIONS[$RANDOM % ${#ACTIONS[@]}]}
+          echo "- $DATE: $ACTION" >> progress.md
 
-          LEARNING=(
-            "learned better PID tuning"
-            "explored embedded optimization techniques"
-            "studied async backend handling"
-            "understood hardware-software sync issues"
-          )
-
-          # ---- PICK RANDOM ACTION ----
-          ACTION_TYPE=$((RANDOM % 3))
-
-          if [ $ACTION_TYPE -eq 0 ]; then
-            ACTION=${FEATURES[$RANDOM % ${#FEATURES[@]}]}
-            echo "- $(date): $ACTION" >> progress.md
-          elif [ $ACTION_TYPE -eq 1 ]; then
-            ACTION=${BUGS[$RANDOM % ${#BUGS[@]}]}
-            echo "- $(date): $ACTION" >> bugs.md
-          else
-            ACTION=${LEARNING[$RANDOM % ${#LEARNING[@]}]}
-            echo "- $(date): $ACTION" >> notes.md
-          fi
-
-          # ---- UPDATE README (DYNAMIC PART) ----
+          # README UPDATE
           sed -i "s/\*updating...\*/$DATE/" README.md || true
           sed -i "s/\*loading...\*/$ACTION/" README.md || true
-          sed -i "s/\* \*Fetching latest activity...\*/\* $ACTION/" README.md || true
 
-          # ---- ENSURE AT LEAST 1 COMMIT ----
-          COMMIT_COUNT=$(( (RANDOM % 2) + 1 ))
+          # COMMIT
+          git add .
+          git commit -m "feat: $ACTION" || echo "No changes"
 
-          MESSAGES=(
-            "update dev log"
-            "improve system logic"
-            "fix minor issue"
-            "refactor code"
-            "update notes"
-          )
-
-          for i in $(seq 1 $COMMIT_COUNT)
-          do
-            echo "update $(date)" >> activity.md
-            git add .
-
-            MSG=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
-            git commit -m "$MSG" || echo "nothing to commit"
-          done
-
-          git push || echo "Nothing to push"
+          # PUSH
+          git push origin main
