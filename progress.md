@@ -43,3 +43,4 @@
 - Mon Apr  6 05:10:45 UTC 2026: enhanced sensor feedback
 - Mon Apr  6 09:46:58 UTC 2026: fixed servo jitter
 - Mon Apr  6 15:10:06 UTC 2026: added API endpoint
+- Tue Apr  7 04:58:11 UTC 2026: improved hexapod stability
