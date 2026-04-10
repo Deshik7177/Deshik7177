@@ -54,3 +54,4 @@
 - Thu Apr  9 15:59:23 UTC 2026: added API endpoint
 - Fri Apr 10 05:12:19 UTC 2026: fixed servo jitter
 - Fri Apr 10 09:45:22 UTC 2026: added API endpoint
+- Fri Apr 10 15:11:48 UTC 2026: enhanced sensor feedback
