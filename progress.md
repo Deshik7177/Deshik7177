@@ -77,3 +77,4 @@
 - Fri Apr 17 09:52:54 UTC 2026: added API endpoint
 - Fri Apr 17 15:34:24 UTC 2026: optimized control loop
 - Sat Apr 18 04:55:44 UTC 2026: enhanced sensor feedback
+- Sat Apr 18 09:10:50 UTC 2026: improved hexapod stability
