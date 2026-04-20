@@ -82,3 +82,4 @@
 - Sun Apr 19 05:15:18 UTC 2026: improved hexapod stability
 - Sun Apr 19 09:12:04 UTC 2026: added API endpoint
 - Sun Apr 19 15:03:43 UTC 2026: optimized control loop
+- Mon Apr 20 05:25:54 UTC 2026: fixed servo jitter
