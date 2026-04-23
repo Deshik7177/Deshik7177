@@ -92,3 +92,4 @@
 - Wed Apr 22 09:58:28 UTC 2026: fixed servo jitter
 - Wed Apr 22 15:47:27 UTC 2026: fixed servo jitter
 - Thu Apr 23 05:15:40 UTC 2026: improved hexapod stability
+- Thu Apr 23 10:03:38 UTC 2026: enhanced sensor feedback
