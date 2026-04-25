@@ -98,3 +98,4 @@
 - Fri Apr 24 15:44:15 UTC 2026: added API endpoint
 - Sat Apr 25 04:59:54 UTC 2026: fixed servo jitter
 - Sat Apr 25 09:27:04 UTC 2026: fixed servo jitter
+- Sat Apr 25 15:04:39 UTC 2026: added API endpoint
