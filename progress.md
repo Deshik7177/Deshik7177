@@ -133,3 +133,4 @@
 - Wed May  6 16:13:22 UTC 2026: optimized control loop
 - Thu May  7 05:45:58 UTC 2026: enhanced sensor feedback
 - Thu May  7 10:39:30 UTC 2026: added API endpoint
+- Thu May  7 16:20:38 UTC 2026: fixed servo jitter
