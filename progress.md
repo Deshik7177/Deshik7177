@@ -160,3 +160,4 @@
 - Fri May 15 16:18:13 UTC 2026: improved hexapod stability
 - Sat May 16 05:40:19 UTC 2026: optimized control loop
 - Sat May 16 09:54:40 UTC 2026: improved hexapod stability
+- Sat May 16 15:32:28 UTC 2026: added API endpoint
