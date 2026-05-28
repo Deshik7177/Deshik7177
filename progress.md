@@ -195,3 +195,4 @@
 - Wed May 27 17:38:48 UTC 2026: optimized control loop
 - Thu May 28 06:36:56 UTC 2026: enhanced sensor feedback
 - Thu May 28 11:55:18 UTC 2026: enhanced sensor feedback
+- Thu May 28 17:47:00 UTC 2026: added API endpoint
