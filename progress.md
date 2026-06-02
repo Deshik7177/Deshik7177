@@ -208,3 +208,4 @@
 - Mon Jun  1 07:29:38 UTC 2026: optimized control loop
 - Mon Jun  1 14:30:59 UTC 2026: optimized control loop
 - Mon Jun  1 19:26:57 UTC 2026: fixed servo jitter
+- Tue Jun  2 07:08:38 UTC 2026: fixed servo jitter
