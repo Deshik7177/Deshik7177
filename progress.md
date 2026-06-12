@@ -240,3 +240,4 @@
 - Thu Jun 11 17:48:33 UTC 2026: added API endpoint
 - Fri Jun 12 07:04:55 UTC 2026: added API endpoint
 - Fri Jun 12 11:57:48 UTC 2026: added API endpoint
+- Fri Jun 12 17:19:14 UTC 2026: fixed servo jitter
