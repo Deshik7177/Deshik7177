@@ -248,3 +248,4 @@
 - Sun Jun 14 11:11:53 UTC 2026: fixed servo jitter
 - Sun Jun 14 16:00:29 UTC 2026: fixed servo jitter
 - Mon Jun 15 08:36:57 UTC 2026: improved hexapod stability
+- Mon Jun 15 14:41:26 UTC 2026: added API endpoint
