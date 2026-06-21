@@ -267,3 +267,4 @@
 - Sat Jun 20 15:56:49 UTC 2026: added API endpoint
 - Sun Jun 21 07:16:36 UTC 2026: optimized control loop
 - Sun Jun 21 11:28:14 UTC 2026: added API endpoint
+- Sun Jun 21 16:13:34 UTC 2026: fixed servo jitter
