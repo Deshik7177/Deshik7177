@@ -79,8 +79,9 @@ machines that *move, react, and exist beyond the screen*.
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=Deshik7177&theme=tokyonight&show_icons=true&count_private=true)
-![](https://streak-stats.demolab.com?user=Deshik7177&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Deshik7177&theme=tokyonight&show_icons=true&count_private=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Deshik7177&theme=tokyonight)
 
 ---
 
